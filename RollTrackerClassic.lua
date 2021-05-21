@@ -120,6 +120,17 @@ RTC.MSGPREFIX_START="RTC.StartRoll: "
 RTC.LOOTTRACKER_MAXLINES=1000
 
 
+BACKDROP_RTC_OPTIONS = {
+	bgFile = "Interface\\TutorialFrame\\TutorialFrameBackground",
+	edgeFile = "Interface\\DialogFrame\\UI-DialogBox-Border",
+	tile = true,
+	tileEdge = false,
+	tileSize = 64,
+	edgeSize = 16,
+	insets = { left = 5, right = 5, top = 5, bottom = 5 },
+};
+
+
 function RTC.GetPlayerList(unsort)
 	local count,start
 	local prefix
