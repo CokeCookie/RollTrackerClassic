@@ -23,7 +23,7 @@
 			<KeyValue key="backdropInfo" value="BACKDROP_RTC_OPTIONS" type="global" />
 			<!-- <KeyValue key="backdropBorderColor" value="LEGENDARY_ORANGE_COLOR" type="global"/> -->
 			<!-- <KeyValue key="backdropBorderColorAlpha" value="0.25" type="number"/> -->
-    	</KeyValues>
+		</KeyValues>
 		
 		<Layers>
 			<Layer level="BACKGROUND">
