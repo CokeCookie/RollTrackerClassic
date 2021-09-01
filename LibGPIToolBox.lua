@@ -729,7 +729,7 @@ local CopyPastFrame
 local CopyPastSavedText
 local CopyPastText
 local function CreateCopyPast()
-	local frame = CreateFrame("Frame", nil, UIParent)
+	local frame = CreateFrame("Frame", nil, UIParent, BackdropTemplateMixin and "BackdropTemplate")
     frame:SetFrameStrata("DIALOG")
 	frame:SetBackdrop({
         bgFile = "Interface/DialogFrame/UI-DialogBox-Background",
